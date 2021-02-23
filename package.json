@@ -1,0 +1,21 @@
+{
+  "name": "new-personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --public-url /"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "bootstrap": "^5.0.0-beta2",
+    "gsap": "^3.6.0",
+    "jquery": "^3.5.1"
+  }
+}
