@@ -5,12 +5,22 @@
   font-family: "Roboto", sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  max-height: 100%;
+  width: 100%;
+}
+
 .upper-half {
   position: fixed;
   z-index: 1;
   height: 25%;
   width: 100%;
-  background-color: #f6ae2d;
+  background-color: #ffee32;
 }
 
 .nav-list {
@@ -77,7 +87,7 @@
 
 .education-information li::marker {
   content: "►";
-  color: #f6ae2d;
+  color: #ffee32;
 }
 
 .title h1 {
@@ -86,7 +96,7 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline;
-  text-decoration-color: #f6ae2d;
+  text-decoration-color: #ffee32;
   text-decoration-thickness: 5px;
 }
 
@@ -118,7 +128,7 @@
 }
 
 .contact-presentation .btn {
-  background: #f6ae2d;
+  background: #ffee32;
   text-align: center;
   text-transform: uppercase;
   padding: 12px;
@@ -167,17 +177,17 @@
 
 .perspective-line:nth-child(2) {
   left: 58px;
-  background: #f1972a;
+  background: #ffee32;
 }
 
 .perspective-line:nth-child(3) {
   left: 87px;
-  background: #cea165;
+  background: #d6d6d6;
 }
 
 .perspective-line:nth-child(4) {
   left: 116px;
-  background: #0f9fd8;
+  background: #336799;
 }
 
 .perspective-line:nth-child(5) {
