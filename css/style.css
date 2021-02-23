@@ -51,6 +51,7 @@
 
 .home,
 .education,
+.projects,
 .contact {
   height: 90vh;
   position: absolute;
@@ -61,6 +62,7 @@
 
 .home-content,
 .education-content,
+.projects-content,
 .contact-content {
   height: 100%;
   display: flex;
