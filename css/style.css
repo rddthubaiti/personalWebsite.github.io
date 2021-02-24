@@ -228,8 +228,6 @@ header {
 
 .autotyping {
   position: relative;
-  background-size: cover;
-  background-position: center;
   padding: 5%;
 }
 
@@ -331,4 +329,5 @@ footer a:hover:after {
 
 .wrapper {
   background-color: #336799;
+  min-height: 100%;
 }
