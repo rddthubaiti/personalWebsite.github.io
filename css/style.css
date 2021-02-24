@@ -214,7 +214,7 @@ body {
   width: 40px;
   margin-left: 5px;
   margin-top: 5px;
-  color: blue;
+  color: ;
 }
 
 .copyright {
@@ -284,4 +284,28 @@ header {
   .autotyping {
     padding: 35px;
   }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+footer h3 {
+  color: #ffee32;
+  font-weight: 800;
+}
+
+.fa-map-marker-alt,
+.fa-phone,
+.fa-envelope {
+  color: #ffee32;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
