@@ -316,13 +316,19 @@ footer a:hover {
 
 footer a:after {
   content: "";
+  margin: 0;
+  padding: 0;
   width: 0;
   height: 2px;
   display: block;
-  background: black;
+  background: #ffee32;
   transition: 300ms;
 }
 
 footer a:hover:after {
   width: 100%;
+}
+
+.wrapper {
+  background-color: #336799;
 }
