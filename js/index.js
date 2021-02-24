@@ -1,5 +1,5 @@
 import Highway from "@dogstudio/highway";
-import Fade from "./transition";
+import Fade from "js/transition.js";
 
 const H = new Highway.Core({
     transitions: {
