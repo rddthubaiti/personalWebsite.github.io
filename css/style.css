@@ -286,7 +286,7 @@ header {
 }
 
 footer {
-  padding-top: 30px;
+  width: 100%;
   position: fixed;
   bottom: 0;
   text-transform: uppercase;
