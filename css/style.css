@@ -287,6 +287,7 @@ header {
 }
 
 footer {
+  padding: 20px;
   position: fixed;
   bottom: 0;
   text-transform: uppercase;
