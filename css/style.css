@@ -214,7 +214,6 @@ body {
   width: 40px;
   margin-left: 5px;
   margin-top: 5px;
-  color: ;
 }
 
 .copyright {
@@ -287,7 +286,7 @@ header {
 }
 
 footer {
-  padding: 20px;
+  padding-top: 30px;
   position: fixed;
   bottom: 0;
   text-transform: uppercase;
@@ -309,4 +308,21 @@ footer h3 {
 footer a {
   text-decoration: none;
   color: black;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+footer a:hover:after {
+  width: 100%;
 }
