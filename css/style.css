@@ -290,6 +290,7 @@ footer {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  padding-bottom: 20px;
 }
 
 footer h3 {
@@ -327,7 +328,7 @@ footer a:hover:after {
   width: 100%;
 }
 
-.wrapper {
+/* .wrapper {
   background-color: #336799;
   min-height: 100%;
-}
+} */
