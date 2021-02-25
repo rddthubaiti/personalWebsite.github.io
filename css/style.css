@@ -140,7 +140,7 @@ body {
   border: 0;
 }
 
-.contact-presentation .btn {
+.contact-presentation #btn {
   background: #ffee32;
   text-align: center;
   text-transform: uppercase;

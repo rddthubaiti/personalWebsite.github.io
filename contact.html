@@ -45,7 +45,7 @@
                 ></textarea>
               </div>
             </div>
-            <div class="btn">send message</div>
+            <button id="btn">send message</button>
           </div>
         </div>
       </section>
@@ -58,6 +58,9 @@
         $("#header").load("header.html");
         $("#footer").load("footer.html");
       });
+      document.getElementById("btn").onclick = function () {
+        alert("Message sent!");
+      };
     </script>
   </body>
 </html>
