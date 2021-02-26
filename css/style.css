@@ -138,6 +138,7 @@ body {
   background: #ebeef1;
   outline: none;
   border: 0;
+  overflow-y: hidden;
 }
 
 .contact-presentation .btn-primary,
