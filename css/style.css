@@ -140,12 +140,20 @@ body {
   border: 0;
 }
 
-.contact-presentation #btn {
-  background: #ffee32;
+.contact-presentation .btn-primary,
+.contact-presentation .btn-primary:hover,
+.contact-presentation .btn-primary:active,
+.contact-presentation .btn-primary:visited,
+.contact-presentation .btn-primary:focus {
+  background-color: #ffee32;
+  border-color: #ffee32;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   padding: 12px;
   border-radius: 25px;
+  border-style: none;
+  outline: none !important;
   cursor: pointer;
   width: 100%;
 }
