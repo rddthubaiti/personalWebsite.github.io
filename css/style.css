@@ -296,14 +296,16 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   padding-bottom: 20px;
 }
 
 footer h3 {
-  color: #ffee32;
+  text-transform: uppercase;
+  border-radius: 2px;
+  background: #ffee32;
+  width: fit-content;
   font-weight: 800;
 }
 
