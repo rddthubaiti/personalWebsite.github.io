@@ -70,7 +70,7 @@ body {
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%); */
   height: 90vh;
-  position: absolute;
+  position: fixed;
   width: 100%;
   font-size: 2rem;
   display: flex;
@@ -99,8 +99,8 @@ body {
 }
 
 .education-information li::marker {
-  content: "►";
-  color: #ffee32;
+  content: "🏰";
+  /* color: #ffee32; */
 }
 
 .title h1 {
@@ -315,7 +315,7 @@ footer h3 {
   color: #ffee32;
 }
 
-footer a {
+/* footer a {
   text-decoration: none;
   color: black;
 }
@@ -337,8 +337,19 @@ footer a:after {
 
 footer a:hover:after {
   width: 100%;
+} */
+
+footer .nav-link,
+p a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
 
+footer .nav-link:hover,
+p a:hover {
+  color: #ffee32;
+}
 /* .wrapper {
   background-color: #336799;
   min-height: 100%;

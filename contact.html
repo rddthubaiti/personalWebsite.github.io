@@ -48,49 +48,53 @@
   </head>
   <body>
     <div id="header"></div>
-    <!-- <main data-router-wrapper> -->
-    <!-- <section data-router-view="contact" class="contact"> -->
-    <div class="contact-content">
-      <div class="contact-presentation">
-        <div class="title">
-          <h1>Contact</h1>
-        </div>
-        <form action="">
-          <div class="contact-form">
-            <div class="contact-from-items">
-              <input
-                type="text"
-                id="full-name"
-                class="input"
-                placeholder="FULL NAME"
-              />
+    <main data-router-wrapper>
+      <section data-router-view="contact" class="contact">
+        <div class="contact-content">
+          <div class="contact-presentation">
+            <div class="title">
+              <h1>Contact</h1>
             </div>
-            <div class="contact-from-items">
-              <input
-                type="text"
-                id="email-address"
-                class="input"
-                placeholder="EMAIL ADDRESS"
-              />
-            </div>
-            <div class="contact-from-items">
-              <textarea
-                id="message"
-                class="input-message"
-                cols="30"
-                rows="10"
-                placeholder="MESSAGE"
-              ></textarea>
-            </div>
+            <form action="">
+              <div class="contact-form">
+                <div class="contact-from-items">
+                  <input
+                    type="text"
+                    id="full-name"
+                    class="input"
+                    placeholder="FULL NAME"
+                  />
+                </div>
+                <div class="contact-from-items">
+                  <input
+                    type="text"
+                    id="email-address"
+                    class="input"
+                    placeholder="EMAIL ADDRESS"
+                  />
+                </div>
+                <div class="contact-from-items">
+                  <textarea
+                    id="message"
+                    class="input-message"
+                    cols="30"
+                    rows="10"
+                    placeholder="MESSAGE"
+                  ></textarea>
+                </div>
+              </div>
+              <button
+                type="button"
+                id="submit"
+                class="btn btn-primary shadow-none"
+              >
+                send message
+              </button>
+            </form>
           </div>
-          <button type="button" id="submit" class="btn btn-primary shadow-none">
-            send message
-          </button>
-        </form>
-      </div>
-    </div>
-    <!-- </section>
-    </main> -->
+        </div>
+      </section>
+    </main>
     <div id="footer"></div>
     <script src="js/index.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
