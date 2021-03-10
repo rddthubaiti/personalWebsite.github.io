@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "DotGothic16", sans-serif;
 }
 
 html,
@@ -161,7 +161,7 @@ body {
 
 .perspective-text {
   color: black;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-size: 58px;
   font-weight: 900;
   letter-spacing: -2px;
@@ -296,7 +296,7 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 400;
   padding-bottom: 20px;
 }
