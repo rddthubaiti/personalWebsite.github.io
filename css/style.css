@@ -99,7 +99,7 @@ body {
 }
 
 .education-information li::marker {
-  content: "🏰";
+  content: "🏰 ";
   /* color: #ffee32; */
 }
 
