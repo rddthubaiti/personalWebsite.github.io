@@ -33,7 +33,7 @@ body {
   list-style: none;
 }
 
-.nav-links {
+.nav-link {
   display: inline-block;
   padding-left: 20px;
   text-decoration: none;
@@ -42,11 +42,11 @@ body {
   text-transform: uppercase;
 }
 
-.nav-links:hover {
+/* .nav-link:hover {
   color: black;
 }
 
-.nav-links:after {
+.nav-link:after {
   content: "";
   width: 0px;
   height: 2px;
@@ -55,9 +55,9 @@ body {
   transition: 300ms;
 }
 
-.nav-links:hover:after {
+.nav-link:hover:after {
   width: 100%;
-}
+} */
 
 .education,
 .projects,
